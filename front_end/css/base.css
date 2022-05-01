@@ -1,0 +1,53 @@
+h1.heading{
+    color: black;
+    font-style:italic;
+    font-weight : bold;
+}
+body {
+    background-color: #fffaf4;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.center_form {
+    display: inline-block;
+}
+.top-nav{
+    border-bottom:1px solid rgb(180, 180, 180);
+    height: 50px;
+    width: 100%;
+    position:fixed;
+}
+/* Add padding-top for .top-nav and . heading to prevent the content overlap*/
+.top-nav + .heading{
+    padding-top: 60px;
+}
+#navbarNav{
+    padding-right: 30px;
+}
+#to-top-button{
+    float: inline-end;
+    border: 0px;
+    background-color: rgb(255, 123, 123);
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Some padding */
+    font-size: 20px; /* Increase font size */
+}
+#to-top-button:hover {
+    background-color: rgb(201, 56, 56);/*  Add a dark-grey background on hover */
+    border:0px
+}
+#contact-us{
+    position: static;
+    float: right;
+    right:auto;
+    bottom:20px;
+    color:white;
+    font-size: 30px;
+    background: black;
+    text-align: center;
+}
+#copyright-footer{
+    border-top:1px solid rgb(180, 180, 180);
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+}
